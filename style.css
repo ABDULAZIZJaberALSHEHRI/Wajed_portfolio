@@ -11,8 +11,8 @@
   --ink-soft: #3A342C;
   --stone: #7C7367;
   --stone-light: #A79E90;
-  --emerald: #123A2C;
-  --emerald-deep: #0A241B;
+  --emerald: #12243a;
+  --emerald-deep: #0a1024;
   --brass: #B8874A;
   --brass-light: #D9B784;
   --line: rgba(27,23,18,0.14);
@@ -444,8 +444,11 @@ section{ position: relative; }
 
 /* ---------- heritage (dark emerald band, plate motif) ---------- */
 .heritage{
-  background: var(--emerald-deep);
+  background: var(--emerald);
   color: var(--cream-2);
+}
+.heritage .section-title em{
+  color: var(--brass-light);
 }
 .heritage-wrap{
   display: grid;
